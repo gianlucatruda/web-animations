@@ -1,0 +1,89 @@
+The word “Animation” derives from an ancient Latin word “Anima” what means “Soul.”
+Attempts of breathing in life into static artificial objects...
+
+Why animations are important
+(https://www.elegantthemes.com/blog/resources/bad-web-design-a-look-at-the-most-hilariously-terrible-websites-from-around-the-web)
+	- misconception : animations are just to inject some fun (old web).
+	- reality : enhances usability and adds features.
+		- attracts attention and directs focus.
+		- interactivity becomes intuitive.
+		- in the web today, more data than ever.
+			- animations play a role in how this data is presented and absorbed.
+			- e.g. http://www.thehappyforecast.com/W/
+		- smoothing out the hidden workings of the site (e.g. loading elements, etc.).
+
+Why use GSAP:
+	- handles transform inconsistencies across browsers.
+	- animate CSS
+		- Simplest tools for 90% of functionality:
+			- opacity
+			- transform
+	- incredibly powerful with SVGs
+		- Why SVGs are better than images.
+			- scales to all device sizes
+			- small if done right
+			- animate elements
+			- widely supported
+	- staggering and arrays
+		- repeating patterns (with variations) on multiple elements
+		- minimises code needed
+		- allows for impressive results with minimal planning and time
+	- timelining
+		- stacking
+		- time offset (and negative offset)
+		- grouping
+		- relative labels
+		- bend / reverse / stop time
+		- modular
+		- nested timelines
+
+Getting to know Greensock
+	- How it's put together
+		- Tweens
+		- Timelines
+	- Design and development philosophies
+		- "Design everything first and slowly unveil things."
+			- https://youtu.be/ZNukcHhpSXg?t=664
+
+Animations that put the web first
+	- Interraction from users
+	- Responsiveness
+		- everything scales beautifully
+		- modules like lego bricks
+
+Incorporating GSAP into your projects
+	- CDNs
+	- minified files
+		- TweenLite (9kb)
+		- TimelineLite (4kb)
+		- EasePack (2kb)
+		- Draggable (12kb)
+
+How to make animations work for you:
+	- infographics used to gain huge conversion,
+		now you can make them interactive and responsive with GSAP.
+	- small filesize for components, yet big wow factor.
+		- e.g. hicarbyecar speedometer SVG.
+	- tutorials and walkthroughs
+		- e.g. my work in hicarbyecar.
+
+
+Examples of sites using Greensock
+	http://www.locus-solus.it/en 						2D Stuff
+	http://www.weareuprising.com/menu				3D Stuff
+
+
+Resources:
+	GSAP DOCS
+		https://greensock.com/docs/#/HTML5/
+	GSAP Cheatsheet
+		https://ihatetomatoes.net/wp-content/uploads/2015/08/GreenSock-Cheatsheet-2.pdf
+	Codepen
+		http://codepen.io/sdras
+		http://codepen.io/ihatetomatoes
+		http://codepen.io/chrisgannon
+		http://codepen.io/GreenSock/
+	Video links:
+		https://w	ww.youtube.com/watch?v=ZNukcHhpSXg
+
+
