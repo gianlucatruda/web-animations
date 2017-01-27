@@ -12,6 +12,14 @@ Why animations are important
 			- e.g. http://www.thehappyforecast.com/W/
 		- smoothing out the hidden workings of the site (e.g. loading elements, etc.).
 
+Getting to know Greensock
+	- How it's put together
+		- Tweens
+		- Timelines
+	- Design and development philosophies
+		- "Design everything first and slowly unveil things."
+			- https://youtu.be/ZNukcHhpSXg?t=664
+
 Why use GSAP:
 	- handles transform inconsistencies across browsers.
 	- animate CSS
@@ -24,6 +32,7 @@ Why use GSAP:
 			- small if done right
 			- animate elements
 			- widely supported
+	- easing
 	- staggering and arrays
 		- repeating patterns (with variations) on multiple elements
 		- minimises code needed
@@ -37,13 +46,6 @@ Why use GSAP:
 		- modular
 		- nested timelines
 
-Getting to know Greensock
-	- How it's put together
-		- Tweens
-		- Timelines
-	- Design and development philosophies
-		- "Design everything first and slowly unveil things."
-			- https://youtu.be/ZNukcHhpSXg?t=664
 
 Animations that put the web first
 	- Interraction from users

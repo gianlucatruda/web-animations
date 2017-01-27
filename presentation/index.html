@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<!-- Intro -->
 <div>
 	<br>
 	<h2 class="heading-text">Animations on the Web with</h2>
@@ -20,7 +21,7 @@
 	</div>
 </div>
 
-
+<!-- 1. Why are animations important? -->
 <div>
 	<h1>1. Why are animations important?</h1>
 	<h2>Misconception : animations are just to inject <a href="http://big-bunny.com/" target="_blank">fun</a>.</h2>
@@ -44,82 +45,148 @@
 	</div>
 </div>
 
-
+<!-- 2. Getting to know Greensock. -->
 <div>
-	<h1>2. Why use GSAP?</h1>
-	<h2>Handles transform inconsistencies across browsers.
-	<h3>Animate CSS
-	<h4>Simplest tools for 90% of functionality.</h4>
-	<h2>Incredibly powerful with SVGs.
-	<h3>Why SVGs are better than images.
-	<h2>Staggering and arrays.
+	<h1>2. Getting to know Greensock.</h1>
+	<h2>How it's put together.</h2>
+	<h3>Basic Units</h3>
+	<img src="img/gsap01.png">
+	<img src="img/gsap02.png">
+	<img src="img/gsap03.png">
+	<h3>Pluggins</h3>
+	<img src="img/gsap04.png">
+	<img src="img/gsap05.png">
+	<h2>Design and development philosophies.</h2>
+	<p>"Design everything first and slowly unveil things."</p>
+	<iframe width="1120" height="630" src="https://www.youtube.com/embed/ZNukcHhpSXg?start=647" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!-- 3. Why use GSAP? -->
+<div>
+	<h1>3. Why use GSAP?</h1>
+	<h2>Handles transform inconsistencies across browsers.</h2>
+	<a href="https://css-tricks.com/svg-animation-on-css-transforms" target="_blank"><img src="img/inconsistencies.png"></a>
+	<h2>Animate CSS</h2>
+	<div class="codepen">
+		<p data-height="409" data-theme-id="dark" data-slug-hash="wgrbeR" data-default-tab="js,result" data-user="gianlucatruda" data-embed-version="2" data-pen-title="Greensock CSS Animation" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/gianlucatruda/pen/wgrbeR/">Greensock CSS Animation</a> by Gianluca Truda (<a href="http://codepen.io/gianlucatruda">@gianlucatruda</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</div>
+	<h3>Simplest tools for 90% of functionality.</h3>
+	<div class="codepen">
+		<p data-height="509" data-theme-id="dark" data-slug-hash="jEjRwo" data-default-tab="result" data-user="sdras" data-embed-version="2" data-pen-title="Sketch" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/sdras/pen/jEjRwo/">Sketch</a> by Sarah Drasner (<a href="http://codepen.io/sdras">@sdras</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		<p class="ref">codepen.io/sdras/pen/jEjRwo</p>
+	</div>
+	<h2>Incredibly powerful with SVGs.</h2>
+	<div class="codepen">
+		<p data-height="416" data-theme-id="dark" data-slug-hash="WQjRXE" data-default-tab="result" data-user="GreenSock" data-embed-version="2" data-pen-title="MorphSVGPlugin from GreenSock" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/GreenSock/pen/WQjRXE/">MorphSVGPlugin from GreenSock</a> by GreenSock (<a href="http://codepen.io/GreenSock">@GreenSock</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		<p class="ref">codepen.io/GreenSock/pen/WQjRXE</p>
+		<p class="ref">This uses a premium MorphSVG Plugin</p>
+	</div>
+	<h3>Why SVGs are better than images.</h3>
+	<img class="big-img" src="img/svgcomic.png">
+	<p class="ref">25.media.tumblr.com/tumblr_m8hkpfyY471qzuhlso1_500.png</p>
+	<img src="img/svgcomp.png">
+	<p class="ref">i.stack.imgur.com/UydAT.png</p>
+	<h2>Easeing.</h2>
+	<div class="codepen">
+		<p data-height="484" data-theme-id="dark" data-slug-hash="RKLzjz" data-default-tab="js,result" data-user="gianlucatruda" data-embed-version="2" data-pen-title="GSAP101 : Easing" class="codepen">See the Pen <a href="http://codepen.io/gianlucatruda/pen/RKLzjz/">GSAP101 : Easing</a> by Gianluca Truda (<a href="http://codepen.io/gianlucatruda">@gianlucatruda</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</div>
+	<a href="https://greensock.com/ease-visualizer" target="_blank"><img class="big-img" src="img/easevis.png"></a>
+	<h2>Staggering and arrays.</h2>
+	<div class="codepen">
+		<p data-height="469" data-theme-id="dark" data-slug-hash="wgrLEW" data-default-tab="js,result" data-user="gianlucatruda" data-embed-version="2" data-pen-title="GSAP101 : Arrays and Stagger" class="codepen">See the Pen <a href="http://codepen.io/gianlucatruda/pen/wgrLEW/">GSAP101 : Arrays and Stagger</a> by Gianluca Truda (<a href="http://codepen.io/gianlucatruda">@gianlucatruda</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</div>
 	<h2>Timelining.</h2>
 	<div class="codepen">
 		<p data-height="582" data-theme-id="dark" data-slug-hash="ByEWON" data-default-tab="result" data-user="sdras" data-embed-version="2" data-pen-title="Understanding GSAP's Timeline" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/sdras/pen/ByEWON/">Understanding GSAP's Timeline</a> by Sarah Drasner (<a href="http://codepen.io/sdras">@sdras</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 		<p class="ref">codepen.io/sdras/pen/ByEWON/</p>
 	</div>
+	<div class="codepen">
+		<p data-height="402" data-theme-id="dark" data-slug-hash="VPMoPv" data-default-tab="js,result" data-user="gianlucatruda" data-embed-version="2" data-pen-title="GSAP101 : Timelines" class="codepen">See the Pen <a href="http://codepen.io/gianlucatruda/pen/VPMoPv/">GSAP101 : Timelines</a> by Gianluca Truda (<a href="http://codepen.io/gianlucatruda">@gianlucatruda</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</div>
 </div>
 
-<div>
-	<h1>3. Getting to know Greensock.
-	<h2>How it's put together.
-	<h2>Design and development philosophies.</h2>
-	<p>"Design everything first and slowly unveil things."</p>
-</div>
 
+<!-- 4. Animations that put the web first. -->
 <div>
 	<h1>4. Animations that put the web first.</h1>
 	<h2>Interraction from users</h2>
+	<div class="codepen">
+		<p data-height="471" data-theme-id="dark" data-slug-hash="WQjEzL" data-default-tab="result" data-user="MAW" data-embed-version="2" data-pen-title="SVG Pendant Lamp ( GSAP )" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/MAW/pen/WQjEzL/">SVG Pendant Lamp ( GSAP )</a> by Diaco M.Lotfollahi (<a href="http://codepen.io/MAW">@MAW</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		<p class="ref">codepen.io/MAW/pen/WQjEzL</p>
+	</div>
 	<h2>Responsiveness</h2>
+	<div class="codepen">
+		<p data-height="645" data-theme-id="dark" data-slug-hash="waXKPw" data-default-tab="result" data-user="sdras" data-embed-version="2" data-pen-title="Responsive Huggy Laser Panda Factory" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/sdras/pen/waXKPw/">Responsive Huggy Laser Panda Factory</a> by Sarah Drasner (<a href="http://codepen.io/sdras">@sdras</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		<p class="ref">codepen.io/sdras/pen/waXKPw</p>
+	</div>
 </div>
 
+<!-- 5. Incorporating GSAP into your projects -->
 <div>
 	<h1>5. Incorporating GSAP into your projects</h1>
 	<h2>CDNs</h2>
+	<a href="https://cdnjs.com/libraries/gsap" target="_blank"><img src="img/cdns.png"></a>
 	<h2>Minified files</h2>
 	<p>
-		- TweenLite (9kb)
-		- TimelineLite (4kb)
-		- EasePack (2kb)
-		- Draggable (12kb)
+		- TweenLite (9kb)<br>
+		- TimelineLite (4kb)<br>
+		- EasePack (2kb)<br>
+		- Draggable (12kb)<br>
 	</p>
 </div>
 
-
+<!-- 6. How to make animations work for you. -->
 <div>
 	<h1>6. How to make animations work for you.</h1>
 	<h2>Animations are the new infographic.</h2>
+	<img src="img/infographic.jpg">
+	<p class="ref">image.freepik.com</p>
 	<h2>Small files, big capture.</h2>
+	<div class="codepen">
+		<p data-height="475" data-theme-id="dark" data-slug-hash="FnsqC" data-default-tab="js,result" data-user="GreenSock" data-embed-version="2" data-pen-title="Burger Boy Finished / TimelineMax page" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/GreenSock/pen/FnsqC/">Burger Boy Finished / TimelineMax page</a> by GreenSock (<a href="http://codepen.io/GreenSock">@GreenSock</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		<p class="ref">codepen.io/GreenSock/pen/FnsqC</p>
+	</div>
 	<h2>Tutorials and walkthroughs.</h2>
+	<a href="http://localhost:3000/#/walkthrough/listings" target="_blank"><img src="img/hcbc.png"></a>
 </div>
 
+<!-- 7. Examples of sites using Greensock. -->
 <div>
 	<h1>7. Examples of sites using Greensock.</h1>
-		http://www.locus-solus.it/en 						2D Stuff
-		http://www.weareuprising.com/menu				3D Stuff
+		<a href="http://www.locus-solus.it/en" target="_blank"><img src="img/2d.png"></a>
+		<a href="http://www.weareuprising.com/menu" target="_blank"><img src="img/3d.png"></a>
 </div>
 
+<!-- Resources -->
 <div>
 	<h1>Resources:</h1>
 	<h2>GSAP Docs</h2>
-			https://greensock.com/docs/#/HTML5/
+			<a href="https://greensock.com/docs/#/HTML5/" target="_blank">greensock.com/docs/</a>
 	<h2>GSAP Cheatsheet</h2>
-			https://ihatetomatoes.net/wp-content/uploads/2015/08/GreenSock-Cheatsheet-2.pdf
+			<a class="big-img" href="https://ihatetomatoes.net/wp-content/uploads/2015/08/GreenSock-Cheatsheet-2.pdf" target="_blank"><img src="img/cheat.png"></a>
 	<h2>Codepen</h2>
-			http://codepen.io/sdras
-			http://codepen.io/ihatetomatoes
-			http://codepen.io/chrisgannon
-			http://codepen.io/GreenSock/
+			codepen.io/sdras<br>
+			codepen.io/ihatetomatoes<br>
+			codepen.io/chrisgannon<br>
+			codepen.io/GreenSock<br>
 	<h2>Video links</h2>
 			https://w	ww.youtube.com/watch?v=ZNukcHhpSXg
 </div>
 
 <div>
-	<h2>Timelines in Greensock</h2>
+	<h1>EXPLOSIONS</h1>
+	<iframe width="1120" height="630" src="https://www.youtube.com/embed/E5rGFZWQfzk?start=63" frameborder="0" allowfullscreen></iframe>
 </div>
-
-
 
 </body>
 </html>

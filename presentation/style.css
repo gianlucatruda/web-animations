@@ -47,11 +47,19 @@ h1 .heading-text {
 	min-width: 50%;
 	text-align: center;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 img {
 	width: auto;
-	max-height: 300px;
+	max-height: 400px;
+}
+
+.big-img {
+	width: auto;
+	min-height: 700px;
+	max-height: 800px;
 }
 
 .annoying-ball {
@@ -62,4 +70,13 @@ img {
 	text-align: center;
 	padding-top: 8px;
 	border-radius: 20px;
+}
+
+a {
+	color: #9fcd22;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
